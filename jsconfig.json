@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES6",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@style/*": ["src/assets/scss/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
